@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root {
+    --fonte2: 'Passion One', cursive;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: dark;
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    padding-top: 30px;
+}
+
+section {
+    height: 800px;
+}
+
+.normal {
+    background-color: white;
+    height: 500px;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.555);
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+div > p {
+    font-family: var(--fonte2);
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.171);
+    padding-top: 150px;
+}
+
+#img01 {
+    background-image: url('imagens/luffy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#img02 {
+    background-image: url('imagens/zoro.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#img03 {
+    background-image: url('imagens/nami.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#img04 {
+    background-image: url('imagens/usopp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+#img05 {
+    background-image: url('imagens/sanji.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#img06 {
+    background-image: url('imagens/chopper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#img07 {
+    background-image: url('imagens/robin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#img08 {
+    background-image: url('imagens/franky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#img09 {
+    background-image: url('imagens/brook.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#img10 {
+    background-image: url('imagens/jinbei.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+footer {
+    background-color: turquoise;
+    color: black;
+}
